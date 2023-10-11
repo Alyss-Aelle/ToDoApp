@@ -49,7 +49,7 @@ const ListerTodo = () => {
   }, [])
   
   return (
-    <View>
+    <View >
       {loading ? <ActivityIndicator animating={true}
       /> :
           <FlatList data={todos}
