@@ -6,16 +6,21 @@ import AddTodo from './src/component/AddTodo'
 import ListerTodo from './src/component/ListerTodo'
 import Tuto from './tuto/Tuto'
 import LeBonCoin from './tuto/bonCoin/LeBonCoin'
+import Template from './templateTuto/Template'
+import AuthApp from './tuto/authApp/AuthApp'
+
+
 
 
 
 const App = () => {
 
- 
+
   
   return (
 
-      <LeBonCoin/>
+      // <AuthApp/>
+      <Template/>
     
   )
 }
